@@ -1,0 +1,7 @@
+{
+  "name": "中医体质测试 - 本草君",
+  "description": "基于中华中医药学会《中医体质分类判定标准》的快速中医体质辨识工具，通过AI辅助提供个性化调理建议。",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
