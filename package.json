@@ -1,7 +1,6 @@
 {
   "name": "中医体质测试---本草君",
   "private": true,
-  "homepage": "https://ivantang0113.github.io/tizhi",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
