@@ -15,7 +15,7 @@ export interface Question {
   id: string;
   text: string;
   type: ConstitutionType;
-  priority: number; // 1 for core, 2 for detail
+  priority: number;
 }
 
 export interface UserInfo {
@@ -28,4 +28,16 @@ export interface UserInfo {
 
 export interface ScoreMap {
   [key: string]: number;
+}
+
+export interface AnalysisResult {
+  nature: string;
+  benefits: string[];
+  recommendations: string;
+  cautions: string;
+}
+
+export interface ChatMessage {
+  role: 'user' | 'model';
+  text: string;
 }
